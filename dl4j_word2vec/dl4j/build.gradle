@@ -18,8 +18,11 @@ dependencies {
 	// https://mvnrepository.com/artifact/org.deeplearning4j/deeplearning4j-nlp
 	compile group: 'org.deeplearning4j', name: 'deeplearning4j-nlp', version: '0.7.1'
 	
-	// https://mvnrepository.com/artifact/org.nd4j/nd4j-native
-	testCompile group: 'org.nd4j', name: 'nd4j-native', version: '0.7.1'
+	// https://mvnrepository.com/artifact/org.nd4j/nd4j-native-platform
+	testCompile group: 'org.nd4j', name: 'nd4j-native-platform', version: '0.7.1'
+
+	
+	
 }
 
 jar {
